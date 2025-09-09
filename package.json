@@ -1,0 +1,16 @@
+{
+  "name": "apps-resume-netlify",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo nothing to build",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "pdf-lib": "^1.17.1"
+  },
+  "engines": { "node": ">=18" }
+}

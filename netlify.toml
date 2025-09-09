@@ -1,0 +1,10 @@
+[build]
+  publish = "."            # static site in repo root
+  command = ""              # no build step; just deploy index.html
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["cheerio", "pdf-lib"]
+  included_files = []
+  node_version = "18"
